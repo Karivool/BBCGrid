@@ -1,0 +1,55 @@
+.logo-holder {
+}
+
+.bbc-logo {
+  width: 84px;
+  height: 24px;
+  float: left;
+  margin-left: 16px;
+  margin-top: 8px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.navbar {
+  background: black;
+  min-height: 40.5px;
+  width: 100%;
+}
+
+.navbar-categories {
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-columns: 175px 80px 80px 80px 90px 80px 80px 80px 80px 160px 160px;
+}
+
+.navbar-signin, .navbar-category, .navbar-more, .navbar-search {
+  font-size: small;
+  font-weight: bold;
+  padding: 13px 20px 12px 20px;
+  border-left: 1px solid #666;
+  cursor: pointer;
+}
+
+.navbar-signin, .navbar-more, .navbar-search {
+  text-align: left;
+}
+
+.navbar-search-box {
+  background: white;
+  padding: 4px;
+  border: 0px solid white;
+  margin-top: -4px;
+  position: absolute;
+}
+
+.triangle-arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  position: absolute;
+  margin-top: 5px;
+}
