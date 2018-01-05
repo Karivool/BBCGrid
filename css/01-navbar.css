@@ -21,7 +21,7 @@
   text-align: center;
   color: white;
   display: grid;
-  grid-template-columns: 175px 80px 80px 80px 90px 80px 80px 80px 80px 160px 160px;
+  grid-template-columns: 175px 80px 80px 80px 90px 80px 80px 80px 80px 140px 160px;
 }
 
 .navbar-signin, .navbar-category, .navbar-more, .navbar-search {
@@ -36,6 +36,17 @@
   text-align: left;
 }
 
+.navbar-signin-icon {
+  width: 22px;
+  position: absolute;
+  margin-top: -3px;
+  margin-left: -6px;
+}
+
+.navbar-signin-text {
+  padding-left: 22px;
+}
+
 .navbar-search-box {
   background: white;
   padding: 4px;
@@ -44,12 +55,16 @@
   position: absolute;
 }
 
+.navbar-more-text {
+  margin-right: 64px;
+}
+
 .triangle-arrow {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid white;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid white;
   position: absolute;
   margin-top: 5px;
 }
