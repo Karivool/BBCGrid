@@ -1,0 +1,17 @@
+.topstories {
+  background: #e7e8e1;
+  padding-top: 30px;
+}
+
+.topstories-welcome-text, .topstories-datetime {
+  font-size: large;
+}
+
+.topstories-welcome-text {
+  margin-left: 16px;
+}
+
+.topstories-datetime {
+  float:right;
+  margin-right: 16px;
+}
