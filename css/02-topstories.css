@@ -14,7 +14,7 @@
 
 .topstories-datetime {
   float:right;
-  margin-right: 16px;
+  margin-right: 35px;
 }
 
 .topstories-photo-grid {
@@ -31,7 +31,6 @@
   grid-area: a;
   width: 615px;
   height: 346px;
-  padding-right: 15px;
 }
 
 .topstories-photo-b {
@@ -57,7 +56,7 @@
 }
 
 .topstories-photo-b, .topstories-photo-d {
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .topstories-photo-b, .topstories-photo-c {
@@ -66,25 +65,97 @@
 
 .topstories-text-a {
   grid-area: a;
+  font-size: 28px;
+  margin-top: 258px;
+  margin-left: 15px;
 }
 
-.topstories-text-b {
+.topstories-text-a2 {
+  grid-area: a;
+  margin-top: 294px;
+  margin-left: 15px;
+  z-index: 2;
+}
+
+.topstories-text-a-cat {
+  grid-area: a;
+  margin-top: 319px;
+  margin-left: 15px;
+  z-index: 2;
+}
+
+.topstories-text-a2, .topstories-text-a-cat {
+  color: #d3d3d3;
+}
+
+.topstories-text-b, .topstories-text-b-cat {
   grid-area: b;
 }
 
-.topstories-text-c {
+.topstories-text-c, .topstories-text-c-cat {
   grid-area: c;
 }
 
-.topstories-text-d {
+.topstories-text-d, .topstories-text-d-cat {
   grid-area: d;
 }
 
-.topstories-text-e {
+.topstories-text-e, .topstories-text-e-cat{
   grid-area: e;
+}
+
+.topstories-text-b, .topstories-text-c,
+.topstories-text-d, .topstories-text-e {
+  max-width: 290px;
+  margin-top: 95px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.topstories-text-b-cat, .topstories-text-c-cat,
+.topstories-text-d-cat, .topstories-text-e-cat {
+  margin-top: 144px;
+  margin-left: 10px;
+  color: #d3d3d3;
+  z-index: 2;
 }
 
 .topstories-text-a, .topstories-text-b, .topstories-text-c,
 .topstories-text-d, .topstories-text-e {
   color: white;
+  z-index: 2;
+}
+
+.topstories-gradient-a {
+  grid-area: a;
+  max-width: 615px;
+}
+
+.topstories-gradient-b {
+  grid-area: b;
+}
+
+.topstories-gradient-c {
+  grid-area: c;
+}
+
+.topstories-gradient-d {
+  grid-area: d;
+}
+
+.topstories-gradient-e {
+  grid-area: e;
+}
+
+.topstories-gradient-a, .topstories-gradient-b,
+.topstories-gradient-c, .topstories-gradient-d,
+.topstories-gradient-e {
+  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
+  z-index: 1;
+}
+
+.topstories-gradient-b, .topstories-gradient-c,
+.topstories-gradient-d, .topstories-gradient-e {
+  max-width: 300px;
+  max-height: 168px;
 }
