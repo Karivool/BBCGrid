@@ -1,0 +1,65 @@
+.weather {
+  width: 510px;
+  margin-top: 25px;
+}
+
+.weather-img {
+  width: 56px;
+}
+
+.weather-grid {
+  display: grid;
+  grid-template-areas:
+    "a b c d i j"
+    "a e c f i k"
+    "a g c h i l";
+}
+
+.weather-img-a {
+  grid-area: a;
+}
+
+.weather-img-c {
+  grid-area: c;
+}
+
+.weather-img-i {
+  grid-area: i;
+}
+
+.weather-day-b, .weather-day-d, .weather-day-j {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.weather-img-a, .weather-img-c, .weather-img-i {
+  width: 56px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.weather-text-lrg-e, .weather-text-lrg-f, .weather-text-lrg-k {
+  font-weight: bold;
+}
+
+.weather-text-sm-g, .weather-text-sm-h, .weather-text-sm-l {
+  font-size: 11px;
+}
+
+.weather-title {
+  float: left;
+  margin-left: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.weather-edit {
+  float: left;
+  background: #f2f2f2;
+  color: #8c8c8c;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 150px;
+}
