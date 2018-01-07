@@ -1,13 +1,36 @@
 .editor {
-
+  background: #e7e8e1;
+  display: grid;
+  grid-template-areas:
+    "a a a a c"
+    "b b b b c";
 }
 
 .editor-big-img {
   width: 825px;
   height: 464px;
+  grid-area: a;
 }
 
 .editor-img {
   width: 265px;
   height: 149px;
+}
+
+.editor-grid {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px, 100px, 50px, 10px;
+  margin-left: 15px;
+  grid-area: b;
+}
+
+.editor-list-div {
+  grid-area: c;  
+}
+
+.editor-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
