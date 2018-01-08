@@ -1,6 +1,8 @@
 .weather {
-  width: 510px;
+  min-width: 780px;
+  max-width: 780px;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .weather-img {
