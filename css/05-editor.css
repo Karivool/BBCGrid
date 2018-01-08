@@ -1,5 +1,6 @@
 .editor {
   background: #e7e8e1;
+  min-width: 1296px;
 }
 
 .editors-picks {
@@ -30,7 +31,7 @@
 .fixedwidth-editor {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 60px 480px 650px;
+  grid-template-rows: 60px 480px 675px;
 }
 
 .editor-big-img-div {
@@ -99,6 +100,7 @@
   font-size: 20px;
   font-weight: bold;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .editor-grid-description {
