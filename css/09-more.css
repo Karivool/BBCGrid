@@ -1,0 +1,72 @@
+.more {
+  min-width: 1296px;
+  margin-bottom: 30px;
+}
+
+.more-grid {
+  display: grid;
+  grid-template-areas:
+  "a a a a a a"
+  "b b c c d d"
+  "e f f f f f";
+}
+
+.more-tv {
+  width: 19px;
+  float: left;
+  margin-right: 5px;
+}
+
+.more-title-a {
+  grid-area: a;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.more-sect-b {
+  grid-area: b;
+  width: 375px;
+}
+
+.more-sect-c {
+  grid-area: c;
+  width: 375px;
+}
+
+.more-sect-d {
+  grid-area: d;
+  width: 375px;
+}
+
+.more-sect-b, .more-sect-c, .more-sect-d {
+  background: #2f2f2f;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.more-title-e {
+  grid-area: e;
+  background: red;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.more-air-f {
+  grid-area: f;
+  background: #2f2f2f;
+  color: white;
+  width: 1055px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.more-air-icon {
+  width: 19px;
+  float: left;
+  margin-right: 5px;
+}
