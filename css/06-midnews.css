@@ -1,0 +1,34 @@
+.midnews {
+  min-width: 1296px;
+}
+
+.midnews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.midnews-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.midnews-img {
+  width: 616px;
+  height: 346px;
+}
+
+.midnews-category {
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.midnews-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-bottom: 45px;
+}
