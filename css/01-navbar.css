@@ -15,6 +15,7 @@
   background: black;
   min-height: 40.5px;
   width: 100%;
+  min-width: 1296px;
 }
 
 .navbar-categories {
