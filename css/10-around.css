@@ -1,6 +1,6 @@
 .around {
-  min-width: 1296px;
   background: #e7e8e1;
+  min-width: 1296px;
   padding-bottom: 15px;
 }
 
@@ -14,9 +14,9 @@
 .around-main-title {
   font-size: 30px;
   font-weight: bold;
-  padding-top: 15px;
-  margin-left: 15px;
   margin-bottom: 15px;
+  margin-left: 15px;
+  padding-top: 15px;
 }
 
 .around-header {
@@ -25,56 +25,54 @@
 }
 
 .around-header-pic {
-  width: 826px;
   height: 465px;
+  width: 826px;
 }
 
 .around-header-title {
-  cursor: pointer;
-  position: absolute;
-  margin-top: -100px;
-  margin-left: 15px;
   color: white;
+  cursor: pointer;
   font-size: 32px;
   font-weight: bold;
+  margin-top: -100px;
+  margin-left: 15px;
+  position: absolute;
   z-index: 2;
 }
 
 .around-header-description {
-  cursor: pointer;
-  position: absolute;
-  margin-left: 15px;
-  margin-top: -60px;
-  font-size: 18px;
-  z-index: 2;
   color: #d3d3d3;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: -60px;
+  margin-left: 15px;
+  position: absolute;
+  z-index: 2;
 }
 
 .around-header-category {
-  cursor: pointer;
-  position: absolute;
-  margin-left: 15px;
-  margin-top: -30px;
-  font-size: 14px;
-  z-index: 2;
   color: #d3d3d3;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: -30px;
+  margin-left: 15px;
+  position: absolute;
+  z-index: 2;
 }
 
 .around-header-gradient {
-  width: 826px;
+  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
+  cursor: pointer;
   height: 465px;
+  width: 826px;
   margin-top: -465px;
   position: absolute;
-  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
   z-index: 1;
-  cursor: pointer;
 }
 
 .around-side-menu {
-  grid-row: 1 / 3;
   display: grid;
-  height: 1066px;
-  margin-right: 15px;
+  grid-row: 1 / 3;
   grid-template-areas:
   "o"
   "a"
@@ -85,14 +83,16 @@
   "f"
   "g"
   "h";
+  height: 1066px;
+  margin-right: 15px;
 }
 
 .side-menu-bg-a, .side-menu-bg-b, .side-menu-bg-c,
 .side-menu-bg-d, .side-menu-bg-e, .side-menu-bg-f,
 .side-menu-bg-g, .side-menu-bg-h {
   background: #363636;
-  width: 406px;
   height: 129px;
+  width: 406px;
 }
 
 .side-menu-bg-b, .side-menu-bg-d, .side-menu-bg-f,
@@ -134,33 +134,33 @@
 }
 
 .side-menu-title-o {
-  grid-area: o;
   background: red;
   color: white;
   font-weight: bold;
+  grid-area: o;
   padding-top: 15px;
-  padding-left: 15px;
   padding-bottom: 15px;
+  padding-left: 15px;
 }
 
 .side-menu-title-a, .side-menu-title-b, .side-menu-title-c,
 .side-menu-title-d, .side-menu-title-e, .side-menu-title-f,
 .side-menu-title-g, .side-menu-title-h {
-  cursor: pointer;
-  margin-left: 100px;
-  margin-top: 30px;
   color: #d3d3d3;
+  cursor: pointer;
   font-size: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
 }
 
 .side-menu-author-a, .side-menu-author-b, .side-menu-author-c,
 .side-menu-author-d, .side-menu-author-e, .side-menu-author-f,
 .side-menu-author-g, .side-menu-author-h {
-  cursor: pointer;
-  margin-left: 100px;
-  margin-top: 80px;
   color: #d3d3d3;
+  cursor: pointer;
   font-style: italic;
+  margin-top: 80px;
+  margin-left: 100px;
 }
 
 .side-menu-pic-a, .side-menu-title-a, .side-menu-author-a {
@@ -198,17 +198,17 @@
 .side-menu-pic-a, .side-menu-pic-b, .side-menu-pic-c,
 .side-menu-pic-d, .side-menu-pic-e, .side-menu-pic-f,
 .side-menu-pic-g, .side-menu-pic-h {
-  cursor: pointer;
-  width: 56px;
-  height: 56px;
   border-radius: 56px;
-  margin-left: 30px;
+  cursor: pointer;
+  height: 56px;
+  width: 56px;
   margin-top: 35px;
+  margin-left: 30px;
 }
 
 .around-main-grid {
-  grid-column: 2 / -1;
   display: grid;
+  grid-column: 2 / -1;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px, 100px, 50px, 10px;
   width: 840px;
@@ -216,14 +216,14 @@
 
 .around-img {
   cursor: pointer;
-  width: 265px;
   height: 149px;
+  width: 265px;
 }
 
 .around-grid-text, .around-grid-description,
 .around-grid-category {
-  cursor: pointer;
   background: white;
+  cursor: pointer;
   padding-left: 15px;
   width: 250px;
 }
@@ -240,7 +240,7 @@
 }
 
 .around-grid-category {
-  margin-bottom: 15px;
   font-size: 14px;
+  margin-bottom: 15px;
   padding-bottom: 15px;
 }

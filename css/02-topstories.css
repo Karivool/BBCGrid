@@ -1,7 +1,7 @@
 .topstories {
   background: #e7e8e1;
-  padding-top: 30px;
   min-width: 1296px;
+  padding-top: 30px;
 }
 
 .topstories-welcome-text, .topstories-datetime {
@@ -30,8 +30,8 @@
 
 .topstories-photo-a {
   grid-area: a;
-  width: 615px;
   height: 346px;
+  width: 615px;
 }
 
 .topstories-photo-b {
@@ -52,8 +52,8 @@
 
 .topstories-photo-b, .topstories-photo-c,
 .topstories-photo-d, .topstories-photo-e {
-  width: 300px;
   height: 168px;
+  width: 300px;
 }
 
 .topstories-photo-b, .topstories-photo-d {
@@ -109,25 +109,25 @@
 .topstories-text-b, .topstories-text-c,
 .topstories-text-d, .topstories-text-e {
   cursor: pointer;
-  max-width: 290px;
+  font-size: 20px;
   margin-top: 95px;
   margin-left: 10px;
-  font-size: 20px;
+  max-width: 290px;
 }
 
 .topstories-text-b-cat, .topstories-text-c-cat,
 .topstories-text-d-cat, .topstories-text-e-cat {
+  color: #d3d3d3;
   cursor: pointer;
   margin-top: 144px;
   margin-left: 10px;
-  color: #d3d3d3;
   z-index: 2;
 }
 
 .topstories-text-a, .topstories-text-b, .topstories-text-c,
 .topstories-text-d, .topstories-text-e {
-  cursor: pointer;
   color: white;
+  cursor: pointer;
   z-index: 2;
 }
 
@@ -156,12 +156,12 @@
 .topstories-gradient-c, .topstories-gradient-d,
 .topstories-gradient-e {
   background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
-  z-index: 1;
   cursor: pointer;
+  z-index: 1;
 }
 
 .topstories-gradient-b, .topstories-gradient-c,
 .topstories-gradient-d, .topstories-gradient-e {
-  max-width: 300px;
   max-height: 168px;
+  max-width: 300px;
 }

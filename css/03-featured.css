@@ -13,14 +13,14 @@
 .featured-title {
   font-size: 22px;
   font-weight: bold;
-  margin-left: 15px;
   margin-top: 16px;
   margin-bottom: 16px;
+  margin-left: 15px;
 }
 
 .featured-photo {
-  width: 405px;
   height: 228px;
+  width: 405px;
   margin-bottom: 5px;
 }
 

@@ -1,6 +1,6 @@
 .world {
-  min-width: 1296px;
   background: #e7e8e1;
+  min-width: 1296px;
   padding-bottom: 50px;
 }
 
@@ -22,15 +22,15 @@
 }
 
 .world-pic-big-a, .world-pic-big-b {
-  width: 616px;
   height: 347px;
+  width: 616px;
   margin-bottom: 15px;
 }
 
 .world-pic-c, .world-pic-d, .world-pic-e {
   cursor: pointer;
-  width: 405px;
   height: 228px;
+  width: 405px;
 }
 
 .world-pic-big-a {
@@ -42,11 +42,11 @@
 }
 
 .world-gradient-a, .world-gradient-b {
-  width: 616px;
-  height: 346px;
   background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,0.3));
-  z-index: 1;
   cursor: pointer;
+  height: 346px;
+  width: 616px;
+  z-index: 1;
 }
 
 .world-gradient-a {
@@ -55,7 +55,6 @@
 
 .world-gradient-b {
   grid-area: b;
-
 }
 
 .world-pic-c {
@@ -71,8 +70,8 @@
 }
 
 .world-title-a, .world-title-b {
-  cursor: pointer;
   color: white;
+  cursor: pointer;
   font-size: 20px;
   font-weight: bold;
   margin-left: 15px;
@@ -81,12 +80,12 @@
 }
 
 .world-title-f, .world-title-g, .world-title-h {
-  cursor: pointer;
   background: white;
-  width: 375px;
-  padding: 15px;
+  cursor: pointer;
   font-size: 20px;
   font-weight: bold;
+  padding: 15px;
+  width: 375px;
 }
 
 .world-title-a {
@@ -110,8 +109,8 @@
 }
 
 .world-category-a, .world-category-b {
-  cursor: pointer;
   color: #d3d3d3;
+  cursor: pointer;
   margin-top: 320px;
   margin-left: 15px;
   font-size: 15px;
@@ -119,13 +118,13 @@
 }
 
 .world-category-i, .world-category-j, .world-category-k {
-  cursor: pointer;
   background: white;
-  padding-left: 15px;
-  padding-bottom: 5px;
-  width: 390px;
-  font-size: 14px;
   color: #696969;
+  cursor: pointer;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  width: 390px;
 }
 
 .world-category-a {

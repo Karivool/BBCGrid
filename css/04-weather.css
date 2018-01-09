@@ -1,8 +1,8 @@
 .weather {
-  min-width: 780px;
-  max-width: 780px;
   margin-top: 25px;
   margin-bottom: 25px;
+  min-width: 780px;
+  max-width: 780px;
 }
 
 .weather-img {
@@ -37,9 +37,9 @@
 
 .weather-img-a, .weather-img-c, .weather-img-i {
   cursor: pointer;
-  width: 56px;
-  margin-left: 15px;
   margin-right: 15px;
+  margin-left: 15px;
+  width: 56px;
 }
 
 .weather-text-lrg-e, .weather-text-lrg-f, .weather-text-lrg-k {
@@ -54,18 +54,18 @@
 
 .weather-title {
   float: left;
-  margin-left: 15px;
-  margin-right: 20px;
   font-size: 20px;
   font-weight: bold;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 
 .weather-edit {
-  float: left;
   background: #f2f2f2;
   color: #8c8c8c;
   cursor: pointer;
+  float: left;
   font-size: 12px;
-  padding: 5px;
   margin-right: 150px;
+  padding: 5px;
 }

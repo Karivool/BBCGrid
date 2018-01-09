@@ -1,7 +1,7 @@
 .footer {
-  min-width: 1296px;
   background: #4c4c4c;
   color: white;
+  min-width: 1296px;
 }
 
 .footer-title {
@@ -12,26 +12,26 @@
 }
 
 .footer-grid {
+  border-bottom: 1px solid #a2a2a2;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: min-content;
   padding-bottom: 15px;
-  border-bottom: 1px solid #a2a2a2;
 }
 
 .footer-grid-options {
-  cursor: pointer;
   border-right: 1px solid #a2a2a2;
-  margin-right: 15px;
+  cursor: pointer;
   font-size: 13px;
   font-weight: bold;
+  margin-right: 15px;
   padding-bottom: 10px;
 }
 
 .footer-grid-options-end {
-  margin-right: 15px;
   font-size: 13px;
   font-weight: bold;
+  margin-right: 15px;
   padding-bottom: 10px;
 }
 
@@ -42,9 +42,9 @@
 
 .footer-row-options {
   cursor: pointer;
+  font-size: 13px;
   margin-top: 5px;
   margin-right: 15px;
-  font-size: 13px;
 }
 
 .footer-end {

@@ -1,29 +1,29 @@
 .language {
-  min-width: 1296px;
   background: #f2f2f2;
+  min-width: 1296px;
   padding-bottom: 60px;
 }
 
 .language-grids {
   display: grid;
+  grid-gap: 30px;
   grid-template-areas:
   "a a b b b";
-  grid-gap: 30px;
 }
 
 .language-big-title {
   cursor: pointer;
-  padding-top: 30px;
-  margin-bottom: 10px;
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 30px;
 }
 
 .language-more-title {
   cursor: pointer;
-  position: absolute;
-  margin-left: 480px;
   font-weight: bold;
+  margin-left: 480px;
+  position: absolute;
 }
 
 .language-other-grid {
@@ -42,19 +42,19 @@
 
 .language-body {
   cursor: pointer;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: bold;
   width: 94px;
 }
 
 .language-lang-grid {
   grid-area: b;
-  margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 738px;
   grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
   font-size: 14px;
+  margin-top: 30px;
+  width: 738px;
 }
 
 .language-lang {

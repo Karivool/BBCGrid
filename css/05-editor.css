@@ -6,21 +6,21 @@
 .editors-picks {
   font-size: 30px;
   font-weight: bold;
-  margin-left: 15px;
   margin-top: 16px;
   margin-bottom: 16px;
+  margin-left: 15px;
 }
 
 .editor-big-img {
   cursor: pointer;
-  width: 831px;
   height: 464px;
+  width: 831px;
 }
 
 .editor-img {
   cursor: pointer;
-  width: 265px;
   height: 149px;
+  width: 265px;
 }
 
 .editor-grid {
@@ -37,9 +37,9 @@
 }
 
 .editor-big-img-div {
-  margin-left: 15px;
-  margin-bottom: 15px;
   grid-column: 1 / 5;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .editor-grid-div {
@@ -74,27 +74,26 @@
 }
 
 .editor-big-img-gradient {
-  width: 831px;
+  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
+  cursor: pointer;
   height: 464px;
+  width: 831px;
   margin-top: -464px;
   position: absolute;
-  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
   z-index: 1;
-  cursor: pointer;
 }
 
 .editor-big-img-text, .editor-big-img-description,
 .editor-big-img-category {
-  z-index: 2;
   color: white;
   cursor: pointer;
+  z-index: 2;
 }
 
 .editor-grid-text, .editor-grid-description,
 .editor-grid-category {
-  cursor: pointer;
   background: white;
-  width: 265px;
+  cursor: pointer;
   padding-left: 15px;
   width: 250px;
 }
@@ -111,8 +110,8 @@
 }
 
 .editor-grid-category {
-  margin-bottom: 15px;
   font-size: 14px;
+  margin-bottom: 15px;
   padding-bottom: 15px;
 }
 
@@ -122,10 +121,10 @@
 }
 
 .editor-list-title {
-  grid-column: 1 / -1;
   background: red;
   color: white;
   font-weight: bold;
+  grid-column: 1 / -1;
   padding: 10px;
   width: 385px;
 }
@@ -134,9 +133,9 @@
   cursor: pointer;
   color: #d3d3d3;
   font-size: 20px;
-  width: 280px;
-  padding: 30px 30px 30px 95px;
   margin-left: -69px;
+  padding: 30px 30px 30px 95px;
+  width: 280px;
 }
 
 .editor-list-text-a {
@@ -148,19 +147,19 @@
 }
 
 .editor-list-num {
-  cursor: pointer;
   background: red;
   border-radius: 50px;
   color: white;
-  font-style: italic;
+  cursor: pointer;
+  font-family: "Georgia",Times,serif;
   font-size: 20px;
-  line-height: 2;
-  text-align: center;
+  font-style: italic;
+  grid-column: 1 / 1;
   height: 44px;
   width: 44px;
-  grid-column: 1 / 1;
-  margin-left: 25px;
+  line-height: 2;
   margin-top: 31px;
+  margin-left: 25px;
+  text-align: center;
   z-index: 1;
-  font-family: "Georgia",Times,serif;
 }

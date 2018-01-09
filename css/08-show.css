@@ -1,13 +1,12 @@
 .show {
-  min-width: 1296px;
   background: white;
+  min-width: 1296px;
 }
 
 .show-grid {
-  display: grid;
   background: white;
+  display: grid;
   margin-top: 30px;
-  width: 1254px;
   grid-template-areas:
   "a b c"
   "d e f"
@@ -15,14 +14,15 @@
   "j k l"
   "m n o"
   "p q r";
+  width: 1254px;
 }
 
 
 .show-icon {
-  width: 20px;
   float: left;
-  margin-right: 5px;
   margin-top: 4px;
+  margin-right: 5px;
+  width: 20px;
 }
 
 .show-category-a, .show-category-b,
@@ -47,8 +47,8 @@
 
 .show-img-d, .show-img-e, .show-img-f {
   cursor: pointer;
-  width: 405px;
   height: 228px;
+  width: 405px;
 }
 
 .show-img-d {
@@ -65,10 +65,10 @@
 
 .show-title-g, .show-title-h, .show-title-i {
   cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 10px;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .show-title-g {
@@ -109,33 +109,33 @@
 
 .show-sche-p, .show-sche-q {
   cursor: pointer;
-  margin-top: 30px;
-  margin-bottom: 30px;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .show-find-p, .show-find-q {
   cursor: pointer;
-  margin-top: 30px;
-  margin-bottom: 30px;
   font-size: 14px;
   font-weight: bold;
-  text-align: end;
+  margin-top: 30px;
   margin-right: 15px;
+  margin-bottom: 30px;
+  text-align: end;
 }
 
 .show-buy-o, .show-signin-o {
-  cursor: pointer;
   grid-area: o;
+  cursor: pointer;
   font-weight: bold;
 }
 
 .show-buy-o {
   background: #127FA4;
-  width: 69px;
-  padding: 16px;
   margin-top: -16px;
+  padding: 16px;
+  width: 69px;
 }
 
 .show-signin-o {

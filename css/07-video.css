@@ -1,6 +1,6 @@
 .video {
-  min-width: 1296px;
   background: #e7e8e1;
+  min-width: 1296px;
 }
 
 .video-grid {
@@ -20,18 +20,18 @@
 }
 
 .video-big-img {
-  width: 1248px;
-  height: 702px;
   grid-area: a;
   cursor: pointer;
+  height: 702px;
+  width: 1248px;
 }
 
 .video-big-title {
   grid-area: a;
+  color: white;
   cursor: pointer;
   font-size: 30px;
   font-weight: bold;
-  color: white;
   margin-top: 580px;
   margin-left: 30px;
   z-index: 2;
@@ -57,27 +57,27 @@
 
 .video-big-gradient {
   grid-area: a;
-  cursor: pointer;
   background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
-  z-index: 1;
+  cursor: pointer;
   width: 1248px;
+  z-index: 1;
 }
 
 .video-subject-bar {
   grid-area: b;
-  width: 1248px;
-  height: 53px;
   background: #484848;
   border-bottom: 2px solid #676767;
+  height: 53px;
+  width: 1248px;
 }
 
 .video-subject-a, .video-subject-b,
 .video-subject-c {
   grid-area: b;
-  cursor: pointer;
   color: white;
-  margin-top: 20px;
+  cursor: pointer;
   font-weight: bold;
+  margin-top: 20px;
   width: 114px;
 }
 
@@ -96,32 +96,32 @@
 
 .video-bar-bg {
   grid-area: c;
-  width: 1248px;
-  height: 137px;
   background: #484848;
-  z-index: 0;
+  height: 137px;
+  width: 1248px;
   margin-bottom: 30px;
+  z-index: 0;
 }
 
 .video-vids-c, .video-vids-e, .video-vids-g {
   cursor: pointer;
-  width: 192px;
   height: 104px;
+  width: 192px;
 }
 
 .video-vids-d, .video-vids-f, .video-vids-h {
   cursor: pointer;
-  width: 192px;
-  height: 72px;
   font-size: 20px;
   font-weight: bold;
+  height: 72px;
+  width: 192px;
 }
 
 .video-vids-c, .video-vids-e, .video-vids-g,
 .video-vids-d, .video-vids-f, .video-vids-h {
   grid-area: c;
-  z-index: 1;
   margin-top: 15px;
+  z-index: 1;
 }
 
 .video-vids-c {
@@ -137,35 +137,35 @@
 }
 
 .video-vids-d {
-  margin-left: 240px;
   color: white;
+  margin-left: 240px;
 }
 
 .video-vids-f {
-  margin-left: 650px;
   color: #bbbbbb;
+  margin-left: 650px;
 }
 
 .video-vids-h {
-  margin-left: 1050px;
   color: #bbbbbb;
+  margin-left: 1050px;
 }
 
 .video-category-a {
   grid-area: c;
-  cursor: pointer;
   color: #bbbbbb;
-  z-index: 2;
+  cursor: pointer;
   margin-top: 104px;
   margin-left: 238px;
+  z-index: 2;
 }
 
 .video-category-b, .video-category-c {
   grid-area: c;
   cursor: pointer;
   color: #a2a2a2;
-  z-index: 2;
   margin-top: 104px;
+  z-index: 2;
 }
 
 .video-category-b {
