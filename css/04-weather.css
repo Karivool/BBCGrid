@@ -30,21 +30,25 @@
 }
 
 .weather-day-b, .weather-day-d, .weather-day-j {
+  cursor: pointer;
   font-size: 11px;
   font-weight: bold;
 }
 
 .weather-img-a, .weather-img-c, .weather-img-i {
+  cursor: pointer;
   width: 56px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
 .weather-text-lrg-e, .weather-text-lrg-f, .weather-text-lrg-k {
+  cursor: pointer;
   font-weight: bold;
 }
 
 .weather-text-sm-g, .weather-text-sm-h, .weather-text-sm-l {
+  cursor: pointer;
   font-size: 11px;
 }
 

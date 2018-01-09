@@ -28,6 +28,7 @@
 }
 
 .world-pic-c, .world-pic-d, .world-pic-e {
+  cursor: pointer;
   width: 405px;
   height: 228px;
 }
@@ -70,6 +71,7 @@
 }
 
 .world-title-a, .world-title-b {
+  cursor: pointer;
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -79,6 +81,7 @@
 }
 
 .world-title-f, .world-title-g, .world-title-h {
+  cursor: pointer;
   background: white;
   width: 375px;
   padding: 15px;
@@ -107,6 +110,7 @@
 }
 
 .world-category-a, .world-category-b {
+  cursor: pointer;
   color: #d3d3d3;
   margin-top: 320px;
   margin-left: 15px;
@@ -115,6 +119,7 @@
 }
 
 .world-category-i, .world-category-j, .world-category-k {
+  cursor: pointer;
   background: white;
   padding-left: 15px;
   padding-bottom: 5px;

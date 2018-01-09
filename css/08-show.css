@@ -27,6 +27,7 @@
 
 .show-category-a, .show-category-b,
 .show-category-c {
+  cursor: pointer;
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -45,6 +46,7 @@
 }
 
 .show-img-d, .show-img-e, .show-img-f {
+  cursor: pointer;
   width: 405px;
   height: 228px;
 }
@@ -62,6 +64,7 @@
 }
 
 .show-title-g, .show-title-h, .show-title-i {
+  cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 20px;
@@ -69,34 +72,29 @@
 }
 
 .show-title-g {
-
 }
 
 
 .show-title-h {
-
 }
 
 
 .show-title-i {
-
 }
 
 .show-description-j, .show-description-k,
 .show-description-l {
+  cursor: pointer;
   margin-bottom: 10px;
 }
 
 .show-description-j {
-
 }
 
 .show-description-k {
-
 }
 
 .show-description-l {
-
 }
 
 .show-sche-p, .show-find-p {
@@ -110,6 +108,7 @@
 }
 
 .show-sche-p, .show-sche-q {
+  cursor: pointer;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 14px;
@@ -117,6 +116,7 @@
 }
 
 .show-find-p, .show-find-q {
+  cursor: pointer;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 14px;
@@ -126,6 +126,7 @@
 }
 
 .show-buy-o, .show-signin-o {
+  cursor: pointer;
   grid-area: o;
   font-weight: bold;
 }

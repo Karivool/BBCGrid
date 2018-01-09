@@ -87,6 +87,7 @@
 
 .topstories-text-a2, .topstories-text-a-cat {
   color: #d3d3d3;
+  cursor: pointer;
 }
 
 .topstories-text-b, .topstories-text-b-cat {
@@ -107,6 +108,7 @@
 
 .topstories-text-b, .topstories-text-c,
 .topstories-text-d, .topstories-text-e {
+  cursor: pointer;
   max-width: 290px;
   margin-top: 95px;
   margin-left: 10px;
@@ -115,6 +117,7 @@
 
 .topstories-text-b-cat, .topstories-text-c-cat,
 .topstories-text-d-cat, .topstories-text-e-cat {
+  cursor: pointer;
   margin-top: 144px;
   margin-left: 10px;
   color: #d3d3d3;
@@ -123,6 +126,7 @@
 
 .topstories-text-a, .topstories-text-b, .topstories-text-c,
 .topstories-text-d, .topstories-text-e {
+  cursor: pointer;
   color: white;
   z-index: 2;
 }

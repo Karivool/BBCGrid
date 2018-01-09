@@ -8,6 +8,7 @@
 }
 
 .midnews-title {
+  cursor: pointer;
   font-size: 20px;
   font-weight: bold;
   margin-top: 30px;
@@ -15,11 +16,13 @@
 }
 
 .midnews-img {
+  cursor: pointer;
   width: 616px;
   height: 346px;
 }
 
 .midnews-category {
+  cursor: pointer;
   font-size: 12px;
   margin-left: 15px;
   margin-top: 10px;
@@ -27,6 +30,7 @@
 }
 
 .midnews-subtitle {
+  cursor: pointer;
   font-size: 20px;
   font-weight: bold;
   margin-left: 15px;

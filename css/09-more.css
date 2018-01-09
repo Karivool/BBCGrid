@@ -40,6 +40,7 @@
 }
 
 .more-sect-b, .more-sect-c, .more-sect-d {
+  cursor: pointer;
   background: #2f2f2f;
   color: white;
   padding: 10px;
@@ -48,6 +49,7 @@
 }
 
 .more-title-e {
+  cursor: pointer;
   grid-area: e;
   background: red;
   color: white;
@@ -57,6 +59,7 @@
 }
 
 .more-air-f {
+  cursor: pointer;
   grid-area: f;
   background: #2f2f2f;
   color: white;
@@ -66,6 +69,7 @@
 }
 
 .more-air-icon {
+  cursor: pointer;
   width: 19px;
   float: left;
   margin-right: 5px;

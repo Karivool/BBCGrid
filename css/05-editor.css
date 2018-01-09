@@ -12,11 +12,13 @@
 }
 
 .editor-big-img {
+  cursor: pointer;
   width: 831px;
   height: 464px;
 }
 
 .editor-img {
+  cursor: pointer;
   width: 265px;
   height: 149px;
 }
@@ -90,6 +92,7 @@
 
 .editor-grid-text, .editor-grid-description,
 .editor-grid-category {
+  cursor: pointer;
   background: white;
   width: 265px;
   padding-left: 15px;
@@ -128,6 +131,7 @@
 }
 
 .editor-list-text-a, .editor-list-text-b {
+  cursor: pointer;
   color: #d3d3d3;
   font-size: 20px;
   width: 280px;
@@ -144,6 +148,7 @@
 }
 
 .editor-list-num {
+  cursor: pointer;
   background: red;
   border-radius: 50px;
   color: white;

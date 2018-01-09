@@ -30,6 +30,7 @@
 }
 
 .around-header-title {
+  cursor: pointer;
   position: absolute;
   margin-top: -100px;
   margin-left: 15px;
@@ -40,6 +41,7 @@
 }
 
 .around-header-description {
+  cursor: pointer;
   position: absolute;
   margin-left: 15px;
   margin-top: -60px;
@@ -49,6 +51,7 @@
 }
 
 .around-header-category {
+  cursor: pointer;
   position: absolute;
   margin-left: 15px;
   margin-top: -30px;
@@ -143,6 +146,7 @@
 .side-menu-title-a, .side-menu-title-b, .side-menu-title-c,
 .side-menu-title-d, .side-menu-title-e, .side-menu-title-f,
 .side-menu-title-g, .side-menu-title-h {
+  cursor: pointer;
   margin-left: 100px;
   margin-top: 30px;
   color: #d3d3d3;
@@ -152,6 +156,7 @@
 .side-menu-author-a, .side-menu-author-b, .side-menu-author-c,
 .side-menu-author-d, .side-menu-author-e, .side-menu-author-f,
 .side-menu-author-g, .side-menu-author-h {
+  cursor: pointer;
   margin-left: 100px;
   margin-top: 80px;
   color: #d3d3d3;
@@ -193,6 +198,7 @@
 .side-menu-pic-a, .side-menu-pic-b, .side-menu-pic-c,
 .side-menu-pic-d, .side-menu-pic-e, .side-menu-pic-f,
 .side-menu-pic-g, .side-menu-pic-h {
+  cursor: pointer;
   width: 56px;
   height: 56px;
   border-radius: 56px;
@@ -209,12 +215,14 @@
 }
 
 .around-img {
+  cursor: pointer;
   width: 265px;
   height: 149px;
 }
 
 .around-grid-text, .around-grid-description,
 .around-grid-category {
+  cursor: pointer;
   background: white;
   padding-left: 15px;
   width: 250px;

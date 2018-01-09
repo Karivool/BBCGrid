@@ -23,10 +23,12 @@
   width: 1248px;
   height: 702px;
   grid-area: a;
+  cursor: pointer;
 }
 
 .video-big-title {
   grid-area: a;
+  cursor: pointer;
   font-size: 30px;
   font-weight: bold;
   color: white;
@@ -37,6 +39,7 @@
 
 .video-big-description {
   grid-area: a;
+  cursor: pointer;
   color: #ececec;
   margin-top: 620px;
   margin-left: 30px;
@@ -45,6 +48,7 @@
 
 .video-big-category {
   grid-area: a;
+  cursor: pointer;
   color: #ececec;
   margin-top: 650px;
   margin-left: 30px;
@@ -53,6 +57,7 @@
 
 .video-big-gradient {
   grid-area: a;
+  cursor: pointer;
   background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
   z-index: 1;
   width: 1248px;
@@ -69,6 +74,7 @@
 .video-subject-a, .video-subject-b,
 .video-subject-c {
   grid-area: b;
+  cursor: pointer;
   color: white;
   margin-top: 20px;
   font-weight: bold;
@@ -98,11 +104,13 @@
 }
 
 .video-vids-c, .video-vids-e, .video-vids-g {
+  cursor: pointer;
   width: 192px;
   height: 104px;
 }
 
 .video-vids-d, .video-vids-f, .video-vids-h {
+  cursor: pointer;
   width: 192px;
   height: 72px;
   font-size: 20px;
@@ -145,6 +153,7 @@
 
 .video-category-a {
   grid-area: c;
+  cursor: pointer;
   color: #bbbbbb;
   z-index: 2;
   margin-top: 104px;
@@ -153,6 +162,7 @@
 
 .video-category-b, .video-category-c {
   grid-area: c;
+  cursor: pointer;
   color: #a2a2a2;
   z-index: 2;
   margin-top: 104px;
