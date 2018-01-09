@@ -1,0 +1,58 @@
+.latenews {
+  min-width: 1296px;
+}
+
+.latenews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.latenews-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.latenews-img {
+  width: 616px;
+  height: 346px;
+}
+
+.latenews-category {
+  margin-left: 15px;
+  margin-top: -25px;
+  margin-bottom: 15px;
+  color: #dcdcdc;
+  z-index: 2;
+}
+
+.latenews-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: -65px;
+  color: white;
+  z-index: 2;
+}
+
+.latenews-gradient {
+  width: 616px;
+  height: 346px;
+  margin-top: 58px;
+  position: absolute;
+  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,0.3));
+  z-index: 1;
+  cursor: pointer;
+}
+
+.latenews-gradient-2 {
+  width: 616px;
+  height: 346px;
+  margin-top: 58px;
+  margin-left: 648px;
+  position: absolute;
+  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,0.3));
+  z-index: 1;
+  cursor: pointer;
+}
