@@ -1,0 +1,144 @@
+.world {
+  min-width: 1296px;
+  background: #e7e8e1;
+  padding-bottom: 50px;
+}
+
+.world-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.world-grid {
+  display: grid;
+  grid-template-areas:
+  "a a a b b b"
+  "a a a b b b"
+  "c c d d e e"
+  "f f g g h h"
+  "i i j j k k";
+}
+
+.world-pic-big-a, .world-pic-big-b {
+  width: 616px;
+  height: 347px;
+  margin-bottom: 15px;
+}
+
+.world-pic-c, .world-pic-d, .world-pic-e {
+  width: 405px;
+  height: 228px;
+}
+
+.world-pic-big-a {
+  grid-area: a;
+}
+
+.world-pic-big-b {
+  grid-area: b;
+}
+
+.world-gradient-a, .world-gradient-b {
+  width: 616px;
+  height: 346px;
+  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,0.3));
+  z-index: 1;
+  cursor: pointer;
+}
+
+.world-gradient-a {
+  grid-area: a;
+}
+
+.world-gradient-b {
+  grid-area: b;
+
+}
+
+.world-pic-c {
+  grid-area: c;
+}
+
+.world-pic-d {
+  grid-area: d;
+}
+
+.world-pic-e {
+  grid-area: e;
+}
+
+.world-title-a, .world-title-b {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 290px;
+  z-index: 2;
+}
+
+.world-title-f, .world-title-g, .world-title-h {
+  background: white;
+  width: 375px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.world-title-a {
+  grid-area: a;
+}
+
+.world-title-b {
+  grid-area: b;
+}
+
+.world-title-f {
+  grid-area: f;
+}
+
+.world-title-g {
+  grid-area: g;
+}
+
+.world-title-h {
+  grid-area: h;
+}
+
+.world-category-a, .world-category-b {
+  color: #d3d3d3;
+  margin-top: 320px;
+  margin-left: 15px;
+  font-size: 15px;
+  z-index: 2;
+}
+
+.world-category-i, .world-category-j, .world-category-k {
+  background: white;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  width: 390px;
+  font-size: 14px;
+  color: #696969;
+}
+
+.world-category-a {
+  grid-area: a;
+}
+
+.world-category-b {
+  grid-area: b;
+}
+
+.world-category-i {
+  grid-area: i;
+}
+
+.world-category-j {
+  grid-area: j;
+}
+
+.world-category-k {
+  grid-area: k;
+}
