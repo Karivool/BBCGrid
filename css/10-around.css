@@ -1,0 +1,238 @@
+.around {
+  min-width: 1296px;
+  background: #e7e8e1;
+  padding-bottom: 15px;
+}
+
+.around-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 200px, 100px, 50px, 10px;
+  margin-left: 15px;
+}
+
+.around-main-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.around-header {
+  grid-column: 2 / -1;
+  margin-bottom: 15px;
+}
+
+.around-header-pic {
+  width: 826px;
+  height: 465px;
+}
+
+.around-header-title {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 15px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.around-header-description {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -60px;
+  font-size: 18px;
+  z-index: 2;
+  color: #d3d3d3;
+}
+
+.around-header-category {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -30px;
+  font-size: 14px;
+  z-index: 2;
+  color: #d3d3d3;
+}
+
+.around-header-gradient {
+  width: 826px;
+  height: 465px;
+  margin-top: -465px;
+  position: absolute;
+  background: linear-gradient( rgba(50,50,50,0), rgba(50,50,50,.5));
+  z-index: 1;
+  cursor: pointer;
+}
+
+.around-side-menu {
+  grid-row: 1 / 3;
+  display: grid;
+  height: 1066px;
+  margin-right: 15px;
+  grid-template-areas:
+  "o"
+  "a"
+  "b"
+  "c"
+  "d"
+  "e"
+  "f"
+  "g"
+  "h";
+}
+
+.side-menu-bg-a, .side-menu-bg-b, .side-menu-bg-c,
+.side-menu-bg-d, .side-menu-bg-e, .side-menu-bg-f,
+.side-menu-bg-g, .side-menu-bg-h {
+  background: #363636;
+  width: 406px;
+  height: 129px;
+}
+
+.side-menu-bg-b, .side-menu-bg-d, .side-menu-bg-f,
+.side-menu-bg-h {
+  background: #2f2f2f;
+}
+
+.side-menu-bg-a {
+  grid-area: a;
+}
+
+.side-menu-bg-b {
+  grid-area: b;
+}
+
+.side-menu-bg-c {
+  grid-area: c;
+}
+
+.side-menu-bg-d {
+  grid-area: d;
+}
+
+.side-menu-bg-e {
+  grid-area: e;
+}
+
+.side-menu-bg-f {
+  grid-area: f;
+}
+
+.side-menu-bg-g {
+  grid-area: g;
+}
+
+.side-menu-bg-h {
+  grid-area: h;
+  padding-bottom: 42px;
+}
+
+.side-menu-title-o {
+  grid-area: o;
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.side-menu-title-a, .side-menu-title-b, .side-menu-title-c,
+.side-menu-title-d, .side-menu-title-e, .side-menu-title-f,
+.side-menu-title-g, .side-menu-title-h {
+  margin-left: 100px;
+  margin-top: 30px;
+  color: #d3d3d3;
+  font-size: 20px;
+}
+
+.side-menu-author-a, .side-menu-author-b, .side-menu-author-c,
+.side-menu-author-d, .side-menu-author-e, .side-menu-author-f,
+.side-menu-author-g, .side-menu-author-h {
+  margin-left: 100px;
+  margin-top: 80px;
+  color: #d3d3d3;
+  font-style: italic;
+}
+
+.side-menu-pic-a, .side-menu-title-a, .side-menu-author-a {
+  grid-area: a;
+}
+
+.side-menu-pic-b, .side-menu-title-b, .side-menu-author-b {
+  grid-area: b;
+}
+
+.side-menu-pic-c, .side-menu-title-c, .side-menu-author-c {
+  grid-area: c;
+}
+
+.side-menu-pic-d, .side-menu-title-d, .side-menu-author-d {
+  grid-area: d;
+}
+
+.side-menu-pic-e, .side-menu-title-e, .side-menu-author-e {
+  grid-area: e;
+}
+
+.side-menu-pic-f, .side-menu-title-f, .side-menu-author-f {
+  grid-area: f;
+}
+
+.side-menu-pic-g, .side-menu-title-g, .side-menu-author-g {
+  grid-area: g;
+}
+
+.side-menu-pic-h, .side-menu-title-h, .side-menu-author-h {
+  grid-area: h;
+}
+
+.side-menu-pic-a, .side-menu-pic-b, .side-menu-pic-c,
+.side-menu-pic-d, .side-menu-pic-e, .side-menu-pic-f,
+.side-menu-pic-g, .side-menu-pic-h {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.around-main-grid {
+  grid-column: 2 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px, 100px, 50px, 10px;
+  width: 840px;
+}
+
+.around-img {
+  width: 265px;
+  height: 149px;
+}
+
+.around-grid-text, .around-grid-description,
+.around-grid-category {
+  background: white;
+  padding-left: 15px;
+  width: 250px;
+}
+
+.around-grid-text {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.around-grid-description {
+  padding-bottom: 20px;
+}
+
+.around-grid-category {
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
